@@ -28,12 +28,12 @@ This Docker Compose configuration sets up an Nginx web server with basic authent
    **MONGO_HOST** environment variable.
 
 ## Directory Structure
-### **docker-compose.yml**: Defines the services (Nginx and MongoDB) and   
+- **docker-compose.yml**: Defines the services (Nginx and MongoDB) and   
   their configurations.
-. **nginx/**: Contains the Nginx specific files.
-. **index.html**: Custom HTML content.
-. **default.conf**: Nginx configuration with basic authentication.
-. **.htpasswd**: File generated to store usernames and encrypted passwords.
+- **nginx/**: Contains the Nginx specific files.
+- **index.html**: Custom HTML content.
+- **default.conf**: Nginx configuration with basic authentication.
+- **.htpasswd**: File generated to store usernames and encrypted passwords.
 
 
 
