@@ -11,17 +11,17 @@ This Docker Compose configuration sets up an Nginx web server with basic authent
 
 ## Navigate to the project directory:
 1. Navigate to the project directory:
-   cd nginx-mongo-docker-compose
+       cd nginx-mongo-docker-compose
 
 2. Create a **.htpasswd** file for basic authentication:
    
-   htpasswd -c ./nginx/.htpasswd username
+       htpasswd -c ./nginx/.htpasswd username
    
    Replace **username** with your desired username.
-4. Customize the **index.html** file in the **nginx** directory to your       liking.
+3. Customize the **index.html** file in the **nginx** directory to your       liking.
 
 5. Start the Docker containers:
-   docker-compose up -d
+       docker-compose up -d
 6. Access the Nginx server at **http://localhost**. You will be prompted 
    for basic authentication using the credentials you specified in the 
    **.htpasswd** file.
