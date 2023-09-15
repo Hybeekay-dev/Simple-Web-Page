@@ -12,6 +12,7 @@ This Docker Compose configuration sets up an Nginx web server with basic authent
 
 1. Clone this repository to your local machine:
 
+```bash
 git clone https://github.com/yourusername/nginx-mongo-docker-compose.git
 
 ## Navigate to the project directory:
